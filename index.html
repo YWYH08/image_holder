@@ -97,13 +97,20 @@
                 <img src="https://static.daktilo.com/sites/415/uploads/2022/12/12/zeynep-atilgan-4-1670836829.jpg" alt="">
             </div>
         </div>
-        <div class="image-container asian-fav" id="asian-fav-section>
+        <div class="image-container asian-fav" id="asian-fav-section">
             <p class="title gold">asian fav</p>
             <div style="display: flex; flex-direction: row; flex-wrap: wrap;" class="image-box" id="asian-fav">
-                <script>
+                <img src="fav/@.jppg">
+<script>
                     for (let i = 1; i <= 29; i++) {
                         let asian2 = document.createElement('img');
                         const asian2_box = document.getElementById('asian-fav')
+if(i == 5){
+let zinap = document.createElement("img");
+zinap.src = "https://lh3.googleusercontent.com/GJPnSBsngARZcW1Gbn-BJDnelaJEzuj1FQ4xLcYzouaaYPytxPSj76RXyNvkN7E4ZTsExwiSe3jHvaSX4QLqI8fbOaQS53KNfrFHDH2I"
+asian2_box.appendChild(zinap)
+continue;
+)
                         asian2.src = `fav/1 (${i}).jpg`
                         asian2_box.appendChild(asian2)
                     }
